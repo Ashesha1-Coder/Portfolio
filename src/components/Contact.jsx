@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id='contact'>
+    <div className='w-full mx-auto bg-black sm:py-20 p-5' id='contact'>
         <div className='text-center'>
-             <h2 className='text-4xl font-bold leading-tight primary-color'>Contact Me</h2>
+             <h2 className='text-3xl  sm:text-4xl font-bold leading-tight primary-color'>Contact Me</h2>
 
 
 
@@ -13,17 +13,17 @@ const Contact = () => {
             <div className="p-10">
              <form action='https://getform.io/f/bejykroa' method='POST'>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                     <div>
                         <div className='mt-2.5 '>
-                            <input type="text" name="" id="" placeholder='Your Name'
+                            <input type="text" name="name"  placeholder='Your Name'
                             className= 'bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-600'/>
 
                         </div>
                     </div>
                     <div>
                     <div className='mt-2.5 '>
-                            <input type="email" name="" id="" placeholder='Your Email'
+                            <input type="email" name="email" id="" placeholder='Your Email'
                             className= 'bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-600'/>
 
                         </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                     </div>
                     <div className="sm:col-span-2">
                     <div className='mt-2.5 '>
-                            <textarea  name="" id="" placeholder='Your Message'
+                            <textarea  name="message" id="" placeholder='Your Message'
                             className= 'bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-600'>
 
                             </textarea>
